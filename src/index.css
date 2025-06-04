@@ -5,5 +5,12 @@
 @tailwind utilities;
 
 body {
-  @apply font-poppins bg-gray-400;
+  background-color: aliceblue;
+}
+
+/* ✅ Tambahkan media query ini untuk mengecilkan font di mobile */
+@media (max-width: 768px) {
+  html {
+    font-size: 80%;
+  }
 }
